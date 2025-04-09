@@ -16,7 +16,6 @@ export default defineConfig(({ command, mode }) => {
   return {
     plugins: [
       react(),
-      eslint(),
       visualizer(),
       legacy({
         targets: ['defaults', 'not IE 11']
@@ -54,7 +53,7 @@ export default defineConfig(({ command, mode }) => {
       }
     },
     server: {
-      port: 8080,
+      port: 3000,
       strictPort: true,
       https: enableHttps ? {
         key: fs.readFileSync('/certs/localhost.key'),

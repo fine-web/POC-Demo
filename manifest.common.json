@@ -1,6 +1,7 @@
 {
+    "version": "1.0.1",
     "manifestVersion": 1,
-    "publisher": "lukaswoehrl",
+    "publisher": "PDETs-dev",
     "description": "Display linked documents on an additional tab and in a list at the work item form for direct viewing.",
     "categories": [
         "Azure Boards"

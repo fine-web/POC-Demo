@@ -1,5 +1,5 @@
 {
-    "id": "azdo-workitem-documents-dev",
-    "baseUri": "http://localhost:8080/",
-    "name": "(Dev) Work Item Embedded Documents"
+    "id": "POC-Demo-dev",
+    "baseUri": "http://localhost:3000/",
+    "name": "(Dev) POC-Demo"
 }
